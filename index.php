@@ -21,10 +21,14 @@
     ?>
   </head>
   <body>
+    <div class="row">
     <?php 
     include('includes/inc_home.php');
+    include('includes/home_links_bar.inc');
     include('Chinese_Zodiac_while_loop.php');
+    include('includes/inc_chinese_zodiac.inc');
     ?>
+    </div>
   </body>
   <footer>
     <?php 

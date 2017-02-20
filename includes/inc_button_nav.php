@@ -1,4 +1,4 @@
-<table>
+<table class="table">
   <tr>
     <td><img src='img/button/HomePage.png'/></td>
     <td><img src='img/button/SiteLayout.png'/></td>
