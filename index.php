@@ -22,12 +22,62 @@
   </head>
   <body>
     <div class="row">
-    <?php 
-    include('includes/inc_home.php');
-    include('includes/home_links_bar.inc');
-    include('Chinese_Zodiac_while_loop.php');
-    include('includes/inc_chinese_zodiac.inc');
-    ?>
+      <div class="col-lg-12">
+        <?php 
+        include('includes/inc_home.php');
+        include('includes/home_links_bar.inc');
+        include('Chinese_Zodiac_while_loop.php');
+        include('includes/inc_chinese_zodiac.inc');
+        
+        
+        if (isset($_GET['page'])):
+          $request_page = $_GET['page'];
+
+          switch ($request_page):
+
+            case 'home_page';
+              include('includes/inc_home.php');
+              break;
+
+            case 'site_layout';
+              include('includes/inc_site_layout.php');
+              break;
+
+            case 'state_information';
+              include('includes/inc_state_information.php');
+              break;
+
+            case 'string_functions';
+              include('includes/inc_string_functions.php');
+              break;
+
+            case 'user_templates';
+              include('includes/inc_user_templates.php');
+              break;
+
+            case 'web_forms';
+              include('includes/inc_web_forms.php');
+              break;
+
+            case 'midterm_assessment';
+              include('includes/inc_midterm_assessment.php');
+              break;
+
+            case 'final_project';
+              include('includes/inc_final_project.php');
+              break;
+            
+            default:
+              include('includes/inc_home.php');
+              break;
+
+          endswitch;
+          
+        else:
+          include('includes/inc_home.php');
+        endif;
+        ?>
+      </div>
     </div>
   </body>
   <footer>
