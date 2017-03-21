@@ -39,5 +39,10 @@
         <img class="btn" src='img/button/FinalProject.png' alt="[Final Project]" title="Final Project"/>
       </a>
     </td>
+    <td>
+      <a href="index.php?page=zodiac_gallery">
+        <img class="btn" src='img/button/button_zodiac-gallery.png' alt="[Zodiac Gollery]" title="Final Project"/>
+      </a>
+    </td>
   </tr>
 </table>

@@ -1,8 +1,9 @@
-<?php
+<a href="#if_else">If...Else Statement</a>
+<a href="#switch">Switch Statement</a>
+<a href="#while_loop">While Loop</a>
+<a href="#for_loop">For Loop</a>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<a id="if_else">If...Else Statement</a>
+<a id="switch">Switch Statement</a>
+<a id="while_loop">While Loop</a>
+<a id="for_loop">For Loop</a>

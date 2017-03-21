@@ -28,7 +28,7 @@
         include('includes/home_links_bar.inc');
         include('Chinese_Zodiac_while_loop.php');
         include('includes/inc_chinese_zodiac.inc');
-        
+        include('includes/inc_control_structures.php');
         
         if (isset($_GET['page'])):
           $request_page = $_GET['page'];
@@ -65,6 +65,10 @@
 
             case 'final_project';
               include('includes/inc_final_project.php');
+              break;
+            
+            case 'zodiac_gallery';
+              include('ZodiacGallery.php');
               break;
             
             default:

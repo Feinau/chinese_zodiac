@@ -1,8 +1,4 @@
+
+## Inc footer dynamic content<br>
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+echo file('proverbs.txt')[rand(0, count(file('proverbs.txt'))-1)];
